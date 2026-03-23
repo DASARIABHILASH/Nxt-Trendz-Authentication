@@ -10,11 +10,14 @@ class Home extends Component {
         <Header />
         <div className="div6">
           <div className="div7">
-            <h1 className="hh2">Clothes That Get You Noticed</h1>
+            <h1 className="hh2">Clothes That Get YOU Noticed</h1>
             <p className="hh3">
-              Fashion is part of the daily air and it does not quite help...
-              VBIbk e2b3iu23eb e3oub3oub3 e 3ou3be 32oe 3oeu3 e23oe23b ej23eej
-              04p9ri ed0f9i4kfm rugjr09rokww3gm0r9o k3-0fogh
+              Fashion is part of the daily air following functionalities When
+              invalid credentials are provided in the login form and Login
+              button is clicked, then the respective error message from the
+              response should be displayed When the username and password are
+              provided correctly and Login button is clicked, then the page
+              should navigate to Home Route
             </p>
             <button className="btn1">Shop Now</button>
           </div>

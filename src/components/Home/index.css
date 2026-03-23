@@ -1,64 +1,133 @@
-/* Write your CSS code here
 .div3 {
-  width: 100vw;
   height: 100vh;
   margin: 0px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
-  padding-left: 30px;
+  align-items: center;
 }
 .h3 {
   margin: 0px;
 }
-body {
-  box-sizing: border-box;
-}
 .div6 {
-  width: 85vw;
-  height: 100%;
+  width: 90%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin-left: 40px;
+  margin-top: 20px;
+  padding: 10px;
 }
-
 .div7 {
   width: 55vw;
-  height: 52vh;
+  height: 59vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-right: 130px;
-  margin-left: 20px;
+  padding: 20px;
 }
 
+@media screen and (min-width: 768px) {
+  .div7 {
+    width: 50vw;
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .div7 {
+    width: 40vw;
+    height: 20vh;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .div8 {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .logo4 {
+    width: 100px;
+    height: 100px;
+  }
+}
+body {
+  margin: 0;
+}
 .div8 {
-  width: 35vw;
-  height: 52vh;
+  width: 380px;
+  height: 37vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 .logo4 {
-  width: 37vw;
-  height: 50vh;
+  width: 380px;
+  height: 37vh;
 }
 .hh2 {
   font-size: 45px;
   font-weight: 600;
   font-family: Roboto;
+  margin-bottom: 30px;
+  margin-right: 50px;
 }
 .hh3 {
   font-size: 20px;
   font-weight: 400;
   font-family: Roboto;
   color: rgb(176, 176, 176);
-} */
+  margin: 0px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .hh2 {
+    font-size: 20px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hh3 {
+    font-size: 18px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hh2 {
+    font-size: 18px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hh3 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .div8 {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo4 {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+/*
 .home-container {
   display: flex;
   flex-direction: column;
@@ -168,4 +237,4 @@ body {
     width: 150px;
     font-size: 16px;
   }
-}
+} */

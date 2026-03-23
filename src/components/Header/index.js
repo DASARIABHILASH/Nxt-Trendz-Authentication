@@ -1,98 +1,112 @@
-// // Write your JS code
-// import {Link} from 'react-router-dom'
-// import './index.css'
-// const Header = () => {
-//   return (
-//     <nav className="div4">
-//       <img
-//         src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
-//         alt="website logo"
-//         className="logo3"
-//       />
-//       <ul className="div5">
-//         <Link to="/">
-//           <li className="h4">Home</li>
-//         </Link>
-//         <Link to="/Products">
-//           <li className="h4">Products</li>
-//         </Link>
-//         <Link to="/Carts">
-//           <li className="h4">Carts</li>
-//         </Link>
-//         <Link to="/Login">
-//           <li className="h4">
-//             <button className="btn1">Logout</button>
-//           </li>
-//         </Link>
-//       </ul>
-//     </nav>
-//   )
-// }
-// export default Header
 import './index.css'
+import {Link} from 'react-router-dom'
 
 const Header = () => (
-  <nav className="nav-header">
-    <div className="nav-content">
-      <div className="nav-bar-mobile-logo-container">
+  <nav className="nav">
+    <img
+      src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
+      alt="website logo"
+      className="logo3"
+    />
+
+    <ul className="divv1">
+      <li>Home</li>
+      <li>Products</li>
+      <li>Cart</li>
+      <Link to="/login">
+        <button className="btn1"> Logout</button>
+      </Link>
+    </ul>
+    <ul className="divv2">
+      <li>
         <img
-          className="website-logo"
-          src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
-          alt="website logo"
+          src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-icon.png"
+          alt="nav home"
+          className="navlogo1"
         />
-
-        <button type="button" className="nav-mobile-btn">
-          <img
-            src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-log-out-img.png"
-            alt="nav logout"
-            className="nav-bar-img"
-          />
-        </button>
-      </div>
-
-      <div className="nav-content nav-bar-large-container">
+      </li>
+      <li>
         <img
-          className="website-logo"
-          src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
-          alt="website logo"
+          src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-icon.png"
+          alt="nav products"
+          className="navlogo1"
         />
-        <ul className="nav-menu">
-          <li className="nav-menu-item">Home</li>
-          <li className="nav-menu-item">Products</li>
-          <li className="nav-menu-item">Cart</li>
-        </ul>
-        <button type="button" className="logout-desktop-btn">
-          Logout
-        </button>
-      </div>
-    </div>
-    <div className="nav-menu-mobile">
-      <ul className="nav-menu-list-mobile">
-        <li className="nav-menu-item-mobile">
-          <img
-            src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-icon.png"
-            alt="nav home"
-            className="nav-bar-img"
-          />
-        </li>
-
-        <li className="nav-menu-item-mobile">
-          <img
-            src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-icon.png"
-            alt="nav products"
-            className="nav-bar-img"
-          />
-        </li>
-
-        <li className="nav-menu-item-mobile">
-          <img
-            src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-cart-icon.png"
-            alt="nav cart"
-            className="nav-bar-img"
-          />
-        </li>
-      </ul>
-    </div>
+      </li>
+      <li>
+        <img
+          src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-cart-icon.png"
+          alt="nav cart"
+          className="navlogo1"
+        />
+      </li>
+    </ul>
   </nav>
 )
+
 export default Header
+// import './index.css'
+// const Header = () => (
+//   <nav className="nav-header">
+//     <div className="nav-content">
+//       <div className="nav-bar-mobile-logo-container">
+//         <img
+//           className="website-logo"
+//           src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
+//           alt="website logo"
+//         />
+
+//         <button type="button" className="nav-mobile-btn">
+//           <img
+//             src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-log-out-img.png"
+//             alt="nav logout"
+//             className="nav-bar-img"
+//           />
+//         </button>
+//       </div>
+
+//       <div className="nav-content nav-bar-large-container">
+//         <img
+//           className="website-logo"
+//           src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
+//           alt="website logo"
+//         />
+//         <ul className="nav-menu">
+//           <li className="nav-menu-item">Home</li>
+//           <li className="nav-menu-item">Products</li>
+//           <li className="nav-menu-item">Cart</li>
+//         </ul>
+//         <button type="button" className="logout-desktop-btn">
+//           Logout
+//         </button>
+//       </div>
+//     </div>
+//     <div className="nav-menu-mobile">
+//       <ul className="nav-menu-list-mobile">
+//         <li className="nav-menu-item-mobile">
+//           <img
+//             src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-icon.png"
+//             alt="nav home"
+//             className="nav-bar-img"
+//           />
+//         </li>
+
+//         <li className="nav-menu-item-mobile">
+//           <img
+//             src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-icon.png"
+//             alt="nav products"
+//             className="nav-bar-img"
+//           />
+//         </li>
+
+//         <li className="nav-menu-item-mobile">
+//           <img
+//             src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-cart-icon.png"
+//             alt="nav cart"
+//             className="nav-bar-img"
+//           />
+//         </li>
+//       </ul>
+//     </div>
+//   </nav>
+// )
+// export default Header
